@@ -21,7 +21,7 @@
   "WebDavDeleteAllowed" : false,
   "WebDavUploadAllowed" : true,
   "DicomServerEnabled" : true,
-  "DicomAet" : "MAPDR",
+  // "DicomAet" : "MAPDR",
   "DicomCheckCalledAet" : true,
   "DicomPort" : 4242,
   "DefaultEncoding" : "Latin1",
@@ -48,7 +48,11 @@
   "DicomAlwaysAllowMove" : false,
   "DicomCheckModalityHost" : false,
   "DicomModalities" : {
-      // "MAPDRX" : [ "MAPDR", "127.0.0.1", 11112]
+     "PACSBBY": [
+      "PACSBHY",           // AE Title PACS (sesuai gambar)
+      "192.168.1.215",     // IP Address PACS
+      104                   // Port PACS
+    ]
   },
   "DicomModalitiesInDatabase" : false,
   "DicomEchoChecksFind" : false,
