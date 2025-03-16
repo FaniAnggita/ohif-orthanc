@@ -1,5 +1,5 @@
 {
-  "Name" : "M A P D R",
+  "Name" : "RSBHY",
   "StorageDirectory" : "/var/lib/orthanc/db",
   "IndexDirectory" : "/var/lib/orthanc/db",
   "StorageCompression" : true,
@@ -48,11 +48,11 @@
   "DicomAlwaysAllowMove" : false,
   "DicomCheckModalityHost" : false,
   "DicomModalities" : {
-     "PACSBBY": [
-      "PACSBHY",           // AE Title PACS (sesuai gambar)
-      "192.168.1.215",     // IP Address PACS
-      104                   // Port PACS
-    ]
+    //  "PACSBBY": [
+    //   "PACSBHY",           
+    //   "192.168.1.215",     
+    //   104                  
+    // ]
   },
   "DicomModalitiesInDatabase" : false,
   "DicomEchoChecksFind" : false,
@@ -68,7 +68,7 @@
   "HttpTimeout" : 60,
   "HttpsVerifyPeers" : true,
   "HttpsCACertificates" : "/etc/ssl/certs/ca-certificates.crt",
-"UserMetadata" : {
+  "UserMetadata" : {
     // "Sample" : 1024
   },
   "UserContentType" : {
