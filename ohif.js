@@ -20,7 +20,6 @@ window.config = {
     ],
   },
   whiteLabeling: {
-    /* Used to replace the default Logo */
     createLogoComponentFn: function (React) {
       return React.createElement("a", {
         target: "_self",
